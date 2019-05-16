@@ -15,9 +15,8 @@ services:
     volumes:
       - ./my.cnf:/etc/mysql/my.cnf
     environment:
-      #MYSQL_ROOT_PASSWORD: xellpaeml
       MYSQL_ROOT_HOST: '%'
-      MYSQL_ROOT_PASSWORD: lp1234
+      MYSQL_ROOT_PASSWORD: dr1234
       MYSQL_USER: root
       MYSQL_PASSWORD: lp1234
       DATABASE_HOST: 127.0.0.1
